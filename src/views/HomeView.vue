@@ -58,7 +58,7 @@
     </section>
 
     <section class="whatWeGive mt_3">
-        <div class="wrapper mt-1 c-w">
+        <div class="wrapper c-w">
             <div class="d-f f-d-r">
                 <h3 class="fs-32px">О&nbsp;нашей&nbsp;</h3>
                 <h3 class="fs-32px c-y">компании</h3>
@@ -104,7 +104,43 @@
 
     <section class="usersReviews">
         <div class="wrapper">
+            <img class="mt_1" src="../assets/img/review-photo-1.png" loading="lazy" alt="Нет">
 
+            <div class="userReviewDescription">
+                <h3 class="fs-24px">Отзывы наших клиентов</h3>
+                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+
+                <h3 class="reviewText fw-400">Очень хороший сервис, всегда по возможности обращаюсь туда.
+                    Близко к дому, можно заказать запчасти, а также присутствует очень приятная  система скидок.
+                    Мастера грамотные, готовы подсказать по любому вопросу. Очень довольна данным СТО.</h3>
+
+                <h4 class="reviewUserName fs-24px">- Ирина</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="galleryPhotos">
+        <div class="wrapper">
+            <h3 class="fs-32px t-a-c">Галерея наших работ</h3>
+
+            <div>
+                <div class="skewX galleryPhotosRow1">
+                    <img src="../assets/img/gallery-photo-1.svg" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-2.svg" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-3.svg" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-4.svg" class="galleryImage" loading="lazy" alt="Нет">
+                </div>
+                <div class="skewX">
+                    <img src="../assets/img/gallery-photo-5.svg" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-6.svg" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-7.svg" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-8.svg" loading="lazy" alt="Нет">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -150,3 +186,5 @@
     </body>
     </html>
 </template>
+<script setup>
+</script>

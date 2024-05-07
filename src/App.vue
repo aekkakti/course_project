@@ -8,12 +8,14 @@
                     <router-link to="/" class="elissa fs-17px fw-700 c-b">Элисса</router-link>
                 </div>
 
-                <div class="d-f j-c-s-b gap-7_5">
+                <div class="d-f j-c-s-b gap-3_5">
                     <router-link to="/" class="fs-17px c-b">Главная</router-link>
                     <router-link to="/news" class="fs-17px c-b">Новости</router-link>
                     <router-link to="/about" class="fs-17px c-b">О нас</router-link>
                     <router-link to="/services" class="fs-17px c-b">Услуги</router-link>
                     <router-link to="/vacancies" class="fs-17px c-b">Вакансии</router-link>
+                    <router-link to="/registration" class="fs-17px c-b">Регистрация</router-link>
+                    <router-link to="/login" class="fs-17px c-b">Вход</router-link>
                 </div>
 
                 <div class="d-f">
@@ -46,12 +48,14 @@
                 </div>
 
 
-                <div class="d-f j-c-s-b gap-7_5 mb_5">
+                <div class="d-f j-c-s-b gap-3_5 mb_5">
                     <router-link to="/" class="fs-17px c-b">Главная</router-link>
                     <router-link to="/news" class="fs-17px c-b">Новости</router-link>
                     <router-link to="/about" class="fs-17px c-b">О нас</router-link>
                     <router-link to="/services" class="fs-17px c-b">Услуги</router-link>
                     <router-link to="/vacancies" class="fs-17px c-b">Вакансии</router-link>
+                    <router-link to="/registration" class="fs-17px c-b">Регистрация</router-link>
+                    <router-link to="/login" class="fs-17px c-b">Вход</router-link>
                 </div>
 
                 <div class="d-f f-d-c lh-2">
