@@ -215,8 +215,8 @@ ul > li:before{
     margin-top: -0.2rem;
 }
 
-.userReviewDescription {
-    background: linear-gradient(#fff 0.14%, #aeaeae 78.28%, rgba(255, 255, 255, 0));
+.userReviewDescription1, .userReviewDescription2, .userReviewDescription3 {
+    background: linear-gradient(89.62deg, #FFFFFF 0.14%, #AEAEAE 77.77%, rgba(255, 255, 255, 0) 99.36%);
     margin-left: 42rem;
     margin-top: -23rem;
     padding-left: 4rem;
@@ -226,5 +226,16 @@ ul > li:before{
     height: 22.563rem;
 }
 
+.reviewText {
+    width: 30.938rem;
+}
 
+
+.nextReviewIcon {
+    margin-left: 1rem;
+}
+
+.previousReviewIcon:hover, .nextReviewIcon:hover {
+    cursor: pointer;
+}
 
