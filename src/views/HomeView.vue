@@ -1,15 +1,4 @@
 <template>
-    <!doctype html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../assets/css/assets.css">
-        <title>Автомастерская</title>
-    </head>
-
     <body>
     <section class="aboutCompany">
         <div class="wrapper">
@@ -191,9 +180,6 @@
     </section>
 
 
-    <!-- доделать нужно секцию с отзывами,галереей -->
-
-
     <section class="sendForm mt_3">
         <div class="wrapper mt-1">
             <h2 class="fs-32px c-w d-f j-c-c pt-2">Хотите оставить заявку? Эта форма - для Вас!</h2>
@@ -230,7 +216,6 @@
     </section>
 
     </body>
-    </html>
 </template>
 <script>
 export default {

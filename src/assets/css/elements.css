@@ -91,12 +91,20 @@
     padding-top: 2rem;
 }
 
+.pt-pb-2 {
+    padding: 2rem 0 2rem 0;
+}
+
 .mt-1 {
     margin-top: -1rem;
 }
 
 .mt_1 {
     margin-top: 1rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
 }
 
 .mb_5 {
@@ -174,11 +182,11 @@ ul > li:before{
     height: 2.875rem;
     border: 2px solid #FFC513;
     padding: 16px;
-    transition: .9s;
+    transition: .5s;
 }
 
 .sendFormButton:hover {
-    transition: .9s;
+    transition: .5s;
     cursor: pointer;
     color: white;
     background-color: #FFC513;
@@ -208,7 +216,7 @@ ul > li:before{
 }
 
 .userReviewDescription1, .userReviewDescription2, .userReviewDescription3 {
-    background: linear-gradient(89.62deg, #FFFFFF 0.14%, #AEAEAE 77.77%, rgba(255, 255, 255, 0) 99.36%);
+    background: linear-gradient(89.62deg, #E4E3E3 0.14%, #AEAEAE 77.77%, rgba(255, 255, 255, 0) 99.36%);
     margin-left: 42rem;
     margin-top: -23rem;
     padding-left: 4rem;
@@ -230,4 +238,69 @@ ul > li:before{
 .previousReviewIcon:hover, .nextReviewIcon:hover {
     cursor: pointer;
 }
+
+/* форма регистрации */
+
+.registration, .login, .resetPassword {
+    background-color: #393939;
+}
+
+.registrationForm, .loginForm, .resetPasswordForm {
+    margin: auto;
+    width: 53.125rem;
+    height: 61.375rem;
+    background-color: white;
+    padding: 1rem 0 0 3rem;
+    border-radius: 5px;
+}
+
+.resetPasswordForm {
+    height: 46.375rem;
+}
+
+.registrationForm > input, .loginForm > input, .resetPasswordForm > input {
+    width: 37.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.loginForm > input, .resetPasswordForm > input {
+    width: 25rem;
+    margin: auto;
+}
+
+.sendRegistrationForm, .sendLoginForm {
+    margin: auto;
+    background: none;
+    width: 18.5rem;
+    height: 4.1875rem;
+    border: 2px solid #FFC513;
+    padding: 16px;
+    transition: .5s;
+}
+
+.sendLoginForm {
+    margin: 5rem 0 0 17rem;
+}
+
+.sendRegistrationForm:hover, .sendLoginForm:hover {
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+    background-color: #FFC513;
+}
+
+a {
+    color: #002C6F;
+}
+
+.resetPasswordText {
+    width: 41rem;
+    height: 10rem;
+    margin-left: 5rem;
+}
+
+
 
