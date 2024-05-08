@@ -174,17 +174,17 @@
             <h3 class="fs-32px t-a-c">Галерея наших работ</h3>
 
             <div>
-                <div class="skewX galleryPhotosRow1">
-                    <img src="../assets/img/gallery-photo-1.svg" class="galleryImage" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-2.svg" class="galleryImage" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-3.svg" class="galleryImage" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-4.svg" class="galleryImage" loading="lazy" alt="Нет">
+                <div>
+                    <img src="../assets/img/gallery-photo-1.png" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-2.png" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-3.png" class="galleryImage" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-4.png" class="galleryImage" loading="lazy" alt="Нет">
                 </div>
-                <div class="skewX">
-                    <img src="../assets/img/gallery-photo-5.svg" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-6.svg" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-7.svg" loading="lazy" alt="Нет">
-                    <img src="../assets/img/gallery-photo-8.svg" loading="lazy" alt="Нет">
+                <div>
+                    <img src="../assets/img/gallery-photo-5.png" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-6.png" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-7.png" loading="lazy" alt="Нет">
+                    <img src="../assets/img/gallery-photo-8.png" loading="lazy" alt="Нет">
                 </div>
             </div>
         </div>

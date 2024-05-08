@@ -52,14 +52,6 @@
     align-self: stretch;
 }
 
-.skewX {
-    transform: skewX(-10deg);
-}
-
-.galleryPhotosRow1 {
-    margin-left: 10rem;
-}
-
 .elissa {
     margin-top: 0.18rem;
 }
