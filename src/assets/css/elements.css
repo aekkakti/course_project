@@ -103,6 +103,10 @@
     margin-top: 1rem;
 }
 
+.mt_3 {
+     margin-top: 3rem;
+ }
+
 .mt-5 {
     margin-top: 5rem;
 }
@@ -111,8 +115,8 @@
     margin-bottom: 5rem;
 }
 
-.mt_3 {
-    margin-top: 3rem;
+.ml-2 {
+    margin-left: 2rem;
 }
 
 .lh-2 {
@@ -285,7 +289,7 @@ ul > li:before{
     margin: 5rem 0 0 17rem;
 }
 
-.sendRegistrationForm:hover, .sendLoginForm:hover {
+.sendRegistrationForm:hover, .sendLoginForm:hover, .openRecordButton:hover {
     transition: .5s;
     cursor: pointer;
     color: white;
@@ -302,5 +306,34 @@ a {
     margin-left: 5rem;
 }
 
+/* Услуги */
+.serviceInfo {
+    height: 26.875rem;
+    width: 23.125rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.openRecordButton {
+    margin: auto;
+    background: none;
+    width: 17.75rem;
+    height: 2.875rem;
+    border: 2px solid #FFC513;
+    transition: .5s;
+    padding: 0;
+}
 
 
+body > section.goOnRecord > div > h3.d-f.j-c-c.fs-24px.fw-400.c-w {
+    margin-bottom: 5px;
+}
+
+.pageButton1:hover, .pageButton2:hover {
+    cursor: pointer;
+    transition: .5s;
+    color: #FFC513;
+}
+
+.pageButton1:active, .pageButton2:active {
+    color: #FFC513;
+}

@@ -61,3 +61,15 @@ footer {
     height: 36rem;
     background-color: #393939;
 }
+
+/* секция услуг */
+
+.servicesInfo {
+    background-image: url("../img/service_background_image.png");
+}
+
+.goOnRecord {
+    height: 22rem;
+    background-image: url("../img/go-to-record-background-image.png");
+}
+
