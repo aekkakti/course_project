@@ -95,54 +95,54 @@
         <div class="wrapper">
 
             <div v-if="currentIndex === 0">
-              <img class="mt_1" src="../assets/img/review-photo-1.png" loading="lazy" alt="Нет">
+              <img class="mt_1" src="../assets/img/review-photo-1.png" alt="Нет">
                 <div class="userReviewDescription1">
                   <h3 class="fs-24px">Отзывы наших клиентов</h3>
-                  <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                  <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                  <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                  <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                  <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                  <img src="../assets/img/star-icon.png" alt="Нет">
+                  <img src="../assets/img/star-icon.png" alt="Нет">
+                  <img src="../assets/img/star-icon.png" alt="Нет">
+                  <img src="../assets/img/star-icon.png" alt="Нет">
+                  <img src="../assets/img/star-icon.png" alt="Нет">
 
                   <h3 class="reviewText fw-400">Очень хороший сервис, всегда по возможности обращаюсь туда.
                       Близко к дому, можно заказать запчасти, а также присутствует очень приятная  система скидок.
                       Мастера грамотные, готовы подсказать по любому вопросу. Очень довольна данным СТО.</h3>
 
                   <h4 class="reviewUserName fs-24px">- Ирина</h4>
-                  <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" loading="lazy" alt="Нет">
-                  <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" loading="lazy" alt="Нет">
+                  <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" alt="Нет">
+                  <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" alt="Нет">
                 </div>
             </div>
 
             <div v-if="currentIndex === 1">
-              <img class="mt_1" src="../assets/img/review-photo-2.png" loading="lazy" alt="Нет">
+              <img class="mt_1" src="../assets/img/review-photo-2.png" alt="Нет">
               <div class="userReviewDescription2">
                 <h3 class="fs-24px">Отзывы наших клиентов</h3>
-                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-                <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+                <img src="../assets/img/star-icon.png" alt="Нет">
+                <img src="../assets/img/star-icon.png" alt="Нет">
+                <img src="../assets/img/star-icon.png" alt="Нет">
+                <img src="../assets/img/star-icon.png" alt="Нет">
+                <img src="../assets/img/star-icon.png" alt="Нет">
 
                 <h3 class="reviewText fw-400">Хочу выразить личную благодарность всему коллективу автосервиса!
                   В моём случае был предложен ремонт с наименьшими финансовыми потерями.
                   Радует, что не настаивают на дополнительных услугах и по делу объясняют. Буду рекомендовать!</h3>
 
                 <h4 class="reviewUserName fs-24px">- Дмитрий</h4>
-                <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" loading="lazy" alt="Нет">
-                <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" loading="lazy" alt="Нет">
+                <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" alt="Нет">
+                <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" alt="Нет">
               </div>
             </div>
 
           <div v-if="currentIndex === 2">
-            <img class="mt_1" src="../assets/img/review-photo-3.png" loading="lazy" alt="Нет">
+            <img class="mt_1" src="../assets/img/review-photo-3.png" alt="Нет">
             <div class="userReviewDescription3">
               <h3 class="fs-24px">Отзывы наших клиентов</h3>
-              <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-              <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-              <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-              <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
-              <img src="../assets/img/star-icon.png" loading="lazy" alt="Нет">
+              <img src="../assets/img/star-icon.png" alt="Нет">
+              <img src="../assets/img/star-icon.png" alt="Нет">
+              <img src="../assets/img/star-icon.png" alt="Нет">
+              <img src="../assets/img/star-icon.png" alt="Нет">
+              <img src="../assets/img/star-icon.png" alt="Нет">
 
               <h3 class="reviewText fw-400">
                 Отличная компания. Работают профессионалы, удобное местоположение.
@@ -151,8 +151,8 @@
                 Буду советовать всем своим друзьям!</h3>
 
               <h4 class="reviewUserName fs-24px">- Эдуард</h4>
-              <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" loading="lazy" alt="Нет">
-              <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" loading="lazy" alt="Нет">
+              <img @click="previousReviewPage" src="../assets/img/previous-review-icon.png" class="previousReviewIcon" alt="Нет">
+              <img @click="nextReviewPage" src="../assets/img/next-review-icon.png" class="nextReviewIcon" alt="Нет">
             </div>
         </div>
         </div>

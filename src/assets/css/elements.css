@@ -327,13 +327,3 @@ a {
 body > section.goOnRecord > div > h3.d-f.j-c-c.fs-24px.fw-400.c-w {
     margin-bottom: 5px;
 }
-
-.pageButton1:hover, .pageButton2:hover {
-    cursor: pointer;
-    transition: .5s;
-    color: #FFC513;
-}
-
-.pageButton1:active, .pageButton2:active {
-    color: #FFC513;
-}
